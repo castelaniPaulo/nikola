@@ -21,7 +21,7 @@ body{
     background-color: var(--cor02);
 }
 header{
-    background-image: linear-gradient(to bottom, var(--cor01), var(--cor05));
+    background-image: linear-gradient(to bottom, var(--cor02), var(--cor05));
     text-align: center;
     height: 125px;
     box-shadow: 2px 2px 4px rgb(17, 17, 17);

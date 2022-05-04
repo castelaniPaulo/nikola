@@ -47,13 +47,40 @@ header p{
     line-height: 1px;
     margin-right: 40px;
     cursor: pointer;
-   
+    display: none;
 }
 #check{
     display: none;
 }
+@media(max-width:500px){
+.checkbtn{
+    display: block;
+}
 
-
+nav{
+    transition: all .8s;
+    top: 80px;
+    text-align: center;
+    height: 100vh;
+    background-color: var(--cor06);
+    left: -100%;
+}
+nav a{
+    display: block;
+    margin: 30px;
+    line-height: 10px;
+    background-color: var(--cor06);
+    position: relative;
+    left: -100%;
+}
+a:hover{
+    color: var(--cor04);
+    background-color: var(--cor05);
+}
+#check:checked ~ a {
+    left: 0;
+}
+}
 nav{
     
     

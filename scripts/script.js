@@ -13,3 +13,5 @@ function fixarMenuNotopo(){
         nav.classList.remove("fixoNotopo")
     }
 }
+
+

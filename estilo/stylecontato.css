@@ -72,5 +72,22 @@ main#ContatoPage{
    
     color:var(--cor05);
     border-radius: 0px 0px 20px 20px;
-
+}
+#formulario{
+    margin-top: 25px;
+    background-color: var(--cor01);
+    padding: 20px;
+    border-radius: 10px;
+    margin: auto;
+}
+input{
+    display: block;
+    padding: 2px;
+    line-height: 1.5em;
+    width: 190px;
+}
+label{
+    display: block;
+    padding: 2px;
+    line-height: 1.5em;
 }

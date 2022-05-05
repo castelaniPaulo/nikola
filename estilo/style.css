@@ -182,19 +182,29 @@ p#final{
      text-decoration: none;
      color: var(--cor01);
  }
-div.ListInvençoes{
+
+.ListaIn{
     margin: auto;
     min-width: 240px;
     max-width: 700px;
     padding: 20px;
     padding-bottom: 20px;
+    margin-bottom: 50px;
     background-image: linear-gradient(to bottom, var(--cor03), var(--cor01));
     border-radius: 10px;
     box-shadow: 8px 8px 15px rgb(43, 42, 42);
 }
-div.ListInvençoes ul li{
+.ListaIn ul{
+    
     list-style-position: inside;
     text-decoration: none;
+    color: var(--cor05);
+    font-weight: bold;
+}
+.ListaIn ul li{
+    background-image: linear-gradient(to right, var(--cor03), var(--cor01));
+    padding: 10px;
+    font-family: var(--fonte-padrao);
 }
 
 

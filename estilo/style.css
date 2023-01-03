@@ -39,7 +39,7 @@ header h1{
 header p{
     
     
-    color: rgb(153, 145, 145);
+    color: rgb(126, 119, 119);
     padding: 10px;
     font-size: 1.2em;
     box-shadow: 2px 2px 8px black;
@@ -88,7 +88,7 @@ main{
 main h1{
     background-image: linear-gradient(to right, var(--cor02), transparent);
     padding: 8px;
-    color: var(--cor05);
+    color: var(--cor06);
     font-weight: bold;
     font-family: var(--fonte-destaque);
 }

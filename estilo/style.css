@@ -4,12 +4,13 @@
 
 :root{
 
-    --cor01: #E4EBF2;
-    --cor02: #C4DDF2;
-    --cor03: #86C6E7;
-    --cor04: #2E4A7E;
-    --cor05: #192E59;
-    --cor06: #76bde9;
+    --cor01: #ffe8f8;
+    --cor02: #ffd9e9;
+    --cor03: #f0bdcd;
+    --cor04: #e2afbf;
+    --cor05: #d3a2b1;
+    --cor06: #4f4045;
+    --cor07: #776067;
 
     --fonte-padrao: Arial, Verdana, helvetica, sans-serif;
     --fonte-destaque: 'Tapestry', cursive;
@@ -32,13 +33,13 @@ header{
 }
 header h1{
     font-family: var(--fonte-padrao);
-    color: rgb(240, 226, 226);
+    color: rgb(119, 110, 110);
     padding: 10px;
 }
 header p{
     
     
-    color: white;
+    color: rgb(153, 145, 145);
     padding: 10px;
     font-size: 1.2em;
     box-shadow: 2px 2px 8px black;
@@ -201,7 +202,7 @@ p#final{
     
     list-style-position: inside;
     text-decoration: none;
-    color: var(--cor05);
+    color: var(--cor07);
     font-weight: bold;
 }
 .ListaIn ul li{
